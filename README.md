@@ -121,9 +121,10 @@ pip install -r requirements.txt
 jupyter lab notebooks/institutional_risk_management_engine.ipynb
 ```
 
-Run all cells top to bottom. Swap the `tickers` list in Phase 1 to test the same
-risk framework on a completely different portfolio — every function is written to
-take weights and returns as parameters, not hardcoded to these three assets.
+Run all cells top to bottom. Swap the `tickers` list in Phase 5 (Data Ingestion &
+Configuration) to test the same risk framework on a completely different
+portfolio — every function is written to take weights and returns as parameters,
+not hardcoded to these three assets.
 
 ## Tech Stack
 
@@ -131,11 +132,11 @@ take weights and returns as parameters, not hardcoded to these three assets.
 
 ## What's Next
 
-A planned follow-up project — **"Beyond Sharpe"** — will connect this risk engine
-directly to the [portfolio optimizer](https://github.com/KayCee174/portfolio-optimization),
+A natural follow-up would be connecting this risk engine directly to the
+[portfolio optimizer](https://github.com/KayCee174/portfolio-optimization) —
 running all four optimizer strategies (equal-weight, Monte Carlo, min-volatility,
-max-Sharpe) through this same risk framework to test whether the "mathematically
-optimal" portfolio also holds up best under stress and backtesting — or whether,
+max-Sharpe) through this same risk framework to see whether the "mathematically
+optimal" portfolio also holds up best under stress and backtesting, or whether,
 like in the optimizer project, the boring choice wins again.
 
 ---
