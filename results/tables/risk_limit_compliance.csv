@@ -1,0 +1,8 @@
+Risk Limit,Policy Limit,Actual Metric,Status
+1-Day 95% VaR,3.50%,3.01%,🟢 PASS
+1-Day 95% CVaR,4.50%,4.20%,🟢 PASS
+Historical Max Drawdown,45.00%,42.13%,🟢 PASS
+Annualized Volatility,25.00%,30.68%,⚠️ BREACH
+Single-Asset Concentration,35.00%,33.33%,🟢 PASS
+Herfindahl-Hirschman Index (HHI),0.2500,0.3300,⚠️ BREACH
+VaR Backtest Exception Status,🟢 Green Zone (≤4 exceptions),63 exceptions (🟢 Green),🟢 PASS
